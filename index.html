@@ -14,8 +14,24 @@
     </header>
 
     <main>
-        <h2>Search by Full Name or Alias</h2>
-        <button id="search-btn">Search</button>
+        <form id="search-form">
+            <label for="search">
+                Search by Full Name or Alias
+            </label>
+
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="e.g. Captain America or Steve Rogers"
+                >
+                <button type="submit">Search</button>
+            </div>
+        </form>
+
+        <h2>RESULT</h2>
+        <hr>
+        <div id="result"></div>
     </main>
 </body>
 </html>
